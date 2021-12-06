@@ -10,6 +10,8 @@ import { ModelTestComponent } from './model-test.component';
   imports: [
     CommonModule,
     ModelTestRoutingModule
-  ]
+    
+  ],
+  exports:[ModelTestComponent]
 })
 export class ModelTestModule { }
